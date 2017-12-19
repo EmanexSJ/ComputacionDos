@@ -17,7 +17,7 @@ namespace Ejercicio04
         {
             Console.WriteLine("Escriba cinco valores reales (pueden contener decimales)");
             Console.WriteLine("El numero debe estar dentro del rango:");
-            Console.WriteLine($"{double.MinValue} y {double.MaxValue}\n");
+            Console.WriteLine($"{double.MinValue:00} y {double.MaxValue:000}\n");
 
             Console.WriteLine("Ingrese el 1er nro:");
             double n1 = Convert.ToDouble(Console.ReadLine());
